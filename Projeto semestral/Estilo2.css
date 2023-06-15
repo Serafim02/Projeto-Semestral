@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+@font-face {
+    font-family:'Mont';
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+
+.logo {
+    width: 6rem;
+}
+
+.item {
+    font: 500 1.0rem 'Mont', sans-serif;
+    color: #ffffff;
+    margin: 30px 0 30px 0;
+}
+
+.item:hover {
+
+    background-color: #ffffff6e;
+    border: solid #ffffff77 0,100px;
+    padding: 3px;
+    width: 300 20px;
+    transition: 0.1s;
+    border-radius: 20px;
+    color: #ffffff;
+    font: 500 1.0rem 'Mont',sans-serif;
+}
+.cadastro {
+    background-color: #ffffff;
+    font: 500 1.0rem 'Mont', sans-serif;
+    color: #000000;
+    padding: 10px;
+    border-radius: 70px;
+    
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header {
+    margin: 0 0 0 0;
+    background-color: black;
+}
+/* FIm da cabeça */
+
